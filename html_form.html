@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p>
+
+    <form >
+            <label >user name : <input type="text"></label> <br> <br>
+            <label for="">password: <input type="password"></label><br>
+            <button type="submit">submit</button>
+    </form>
+
+    <h3>Radio Button in an HTML Form</h3>
+    <p>To create a radio button, we use the <input> tag following by radio type to provide users to choose a limited number of choices.</p>
+
+    <form >
+        <label >male<input type="radio" name="gender"  value="male">
+        </label> <br>
+
+        <label >female<input type="radio" name="gender"  vlaue="female">
+        </label>
+    </form>
+
+    <h3>Checkbox in an HTML Form</h3>
+    <p>To create a checkbox in an HTML form, we use the <input> tag followed by the input type checkbox. It is a square box to tick to activate this. It used to choose more options at a time. </p>
+
+    <form >
+        <ul style=" list-style-type: none;">
+            <li><input type="checkbox" name="langauge" value="hindi"> hindi</li>
+            <li><input type="checkbox" name="langauge" value="english"> english</li>
+            <li><input type="checkbox" name="langauge" value="gujrati"> gujrati</li>
+        </ul>
+    </form>
+
+    <h3>Combobox in an HTML Form</h3>
+    <p>Combobox is used to create a drop-down menu in your form which contains multiple options. So, to create an Combobox in an HTML form, we use the "select" tag with "option" tag. It is also known as a drop-down menu.</p>
+        <form>
+            <select name="language">
+              <option value="indian">Indian</option>
+              <option value="nepali">Nepali</option>
+              <option value="others">Others</option>
+            </select>
+           </form>
+
+    <h3>TextArea in an HTML Form</h3>
+    <p>In the HTML form, a text area is used to add comments or reviews, or addresses to the form, in other words, the text area is a multi-line text input control. It contains an unlimited number of characters, the text renders in a fixed-width font, and the size of the text area is given by the "rows" and "cols" attributes. To create a text area in the form use the "textarea" tag.</p>
+    
+    <form >
+        <textarea name="welcome message"  cols="5" rows="2">HTML form</textarea>
+    </form>
+    
+    
+    
+</body>
+</html>
